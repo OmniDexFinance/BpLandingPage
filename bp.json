@@ -1,1 +1,60 @@
-
+{
+    "producer_account_name": "omnidexblock",
+    "org": {
+      "candidate_name": "OmniDexBP",
+      "website": "https://omnidexbp.com",
+      "code_of_conduct": "https://omnidexbp.com#conduct",
+      "ownership_disclosure": "https://omnidexbp.com#team",
+      "email": "team@omnidex.finance",
+      "branding": {
+        "logo_256": "https://omnidexbp.com/images/logo256.png",
+        "logo_1024":"https://omnidexbp.com/images/logo1024.png",
+        "logo_svg":"https://omnidexbp.com/images/logosvg.svg"
+      },
+      "location": {
+        "name": "Rutland",
+        "country": "UK",
+        "latitude": 52.67,
+        "longitude": -0.73
+      },
+      "social": {
+        "twitter": "OmniDex1",
+        "medium": "Omni-Dex",
+        "github": "OmniDexFinance",
+        "telegram": "OmniDex1"
+      }
+    },
+    "nodes": [
+      {
+        "location": {
+          "name": "Johnstown",
+          "country": "US",
+          "latitude": 40.093832,
+          "longitude": -82.750684
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+          "name": "Johnstown",
+          "country": "US",
+          "latitude": 40.093832,
+          "longitude": -82.750684
+        },
+        "node_type": "seed",
+        "p2p_endpoint": "_peer1._tcp.omnidexbp.com:9877"
+      },
+      {
+        "location": {
+            "name": "Johnstown",
+            "country": "US",
+            "latitude": 40.093832,
+            "longitude": -82.750684
+        },
+        "node_type": "query",
+        "api_endpoint": "http://omnidexbp.com",
+        "ssl_endpoint": "https://omnidexbp.com",
+        "features": ["chain-api"]
+      }
+    ]
+  }
